@@ -404,6 +404,9 @@ button {
 .footer-container {
   display: flex;
   align-items: baseline;
+}
+
+.footer-desc {
   margin-right: 120px;
 }
 
