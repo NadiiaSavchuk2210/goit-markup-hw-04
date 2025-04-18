@@ -132,7 +132,7 @@ button {
 }
 
 .socials-icon {
-  fill: var(--white-color);
+  fill: var(--accent-color);
 }
 
 /* header */
@@ -219,7 +219,7 @@ button {
 .contacts-link:hover,
 .contacts-link:focus,
 .nav-link.current {
-  color: var(--secondary-color);
+  color: var(--btn-hover-color);
 }
 
 /* Hero */
@@ -228,11 +228,10 @@ button {
   margin: 0 auto;
   background-color: var(--dark-color);
   background-image: linear-gradient(
-      to top,
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url("../images/people-office.jpg");
+    url(../images/people-office.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -404,7 +403,8 @@ button {
 
 .footer-container {
   display: flex;
-  gap: 120px;
+  align-items: baseline;
+  margin-right: 120px;
 }
 
 .footer-logo {
